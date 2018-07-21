@@ -36,6 +36,7 @@ svg {
   position: absolute;
   font-size: 1.4rem;
   opacity: 0;
+  margin-top: 1rem;
 }
 .initialize .blank__text {
   opacity: 1;
@@ -76,10 +77,13 @@ svg {
   justify-content: center;
   align-items: center;
 }
+.intro__face {
+  margin-top: 2rem;
+}
 .intro__wrapper {
-  position: relative;
+  position: absolute;
   text-align: center;
-  margin-top: -3rem;
+  margin-top: -3.5rem;
 }
 .intro__content {
   z-index: 2;
@@ -237,6 +241,9 @@ svg {
   }
 }
 @media (max-width: 600px) {
+  .intro__wrapper {
+    margin-top: -2rem;
+  }
   .intro__img {
     width: 300px;
     height: 261px;
@@ -244,10 +251,13 @@ svg {
   .intro__content {
     padding: 4.5rem 2rem 2rem;
   }
-  
   .initialized .active .intro__line {
     width: 12rem;
     margin-bottom: 1rem;
+  }
+  .intro__face {
+    width: 244px;
+    height: auto;
   }
   .intro__number {
     margin-bottom: 2rem;
