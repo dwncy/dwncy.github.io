@@ -101,5 +101,8 @@ define([
     }
   }
 
-  $(document).ready(() => new App());
+  $(document).ready(() => {
+    console.log('Feel free to check out: https://github.com/dwncy/dwncy.github.io. Nothing hidden.');
+    new App();
+  });
 });
